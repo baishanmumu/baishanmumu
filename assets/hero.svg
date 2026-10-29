@@ -1,41 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">白山 — Algorithm Engineer and LLM Application Engineer</title>
-  <desc id="desc">A system trace flows from signal through model and tools to evaluation.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">白山 / Baishan — AI Algorithm Engineer and LLM Application Engineer</title>
+  <desc id="desc">A bilingual engineering profile with a model-to-application evaluation workflow.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#111820"/>
-      <stop offset="1" stop-color="#1A2630"/>
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="1" stop-color="#1C2932"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#B7D2D8" stroke-opacity=".055" stroke-width="1"/>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#B7D2D8" stroke-opacity=".045" stroke-width="1"/>
     </pattern>
     <linearGradient id="trace" x1="0" x2="1">
-      <stop offset="0" stop-color="#72E1D2"/>
-      <stop offset="1" stop-color="#F4AF69"/>
+      <stop offset="0" stop-color="#79D8CD"/>
+      <stop offset="1" stop-color="#E9B77D"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
-  <path d="M0 281H1200" stroke="#A8C6CE" stroke-opacity=".15"/>
-  <text x="64" y="78" fill="#72E1D2" font-family="monospace" font-size="14" letter-spacing="3">ENGINEERING / INTELLIGENCE SYSTEMS</text>
-  <text x="60" y="177" fill="#F3F1EA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="72" font-weight="650" letter-spacing="2">白山</text>
-  <text x="64" y="218" fill="#C7D1D3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" letter-spacing=".4">Algorithm Engineer  ·  LLM Application Engineer</text>
-  <text x="64" y="260" fill="#87999F" font-family="monospace" font-size="13" letter-spacing="1.8">MODEL → TOOLS → EVALUATION</text>
+  <rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#grid)"/>
+  <path d="M56 295H1144" stroke="#A8C6CE" stroke-opacity=".15"/>
+  <text x="64" y="60" fill="#79D8CD" font-family="monospace" font-size="12" letter-spacing="3">AI ENGINEERING PROFILE  /  个人技术档案</text>
+  <text x="60" y="155" fill="#F3F1EA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="68" font-weight="650" letter-spacing="1.5">白山</text>
+  <text x="218" y="151" fill="#9EAFB2" font-family="monospace" font-size="17" letter-spacing="2">BAISHAN</text>
+  <text x="64" y="198" fill="#E4E9E6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20">AI 算法工程师  ·  AI 大模型应用开发工程师</text>
+  <text x="64" y="232" fill="#AAB9BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">AI Algorithm Engineer  ·  LLM Application Engineer</text>
+  <text x="64" y="272" fill="#79D8CD" font-family="monospace" font-size="12" letter-spacing="1.2">MODELING  →  APPLICATION  →  EVALUATION</text>
 
-  <g transform="translate(706 77)">
-    <path d="M22 78H126C147 78 148 43 174 43H275C299 43 297 113 324 113H436" fill="none" stroke="#40545B" stroke-width="2"/>
-    <path d="M22 78H126C147 78 148 43 174 43H275C299 43 297 113 324 113H436" fill="none" stroke="url(#trace)" stroke-width="2.5" stroke-dasharray="4 8"/>
-    <circle cx="22" cy="78" r="8" fill="#111820" stroke="#72E1D2" stroke-width="3"/>
-    <circle cx="174" cy="43" r="8" fill="#111820" stroke="#72E1D2" stroke-width="3"/>
-    <circle cx="324" cy="113" r="8" fill="#111820" stroke="#F4AF69" stroke-width="3"/>
-    <circle cx="436" cy="113" r="8" fill="#111820" stroke="#F4AF69" stroke-width="3"/>
-    <text x="22" y="119" text-anchor="middle" fill="#95AAA9" font-family="monospace" font-size="11" letter-spacing="1">INPUT</text>
-    <text x="174" y="18" text-anchor="middle" fill="#95AAA9" font-family="monospace" font-size="11" letter-spacing="1">MODEL</text>
-    <text x="324" y="151" text-anchor="middle" fill="#95AAA9" font-family="monospace" font-size="11" letter-spacing="1">TOOLS</text>
-    <text x="436" y="151" text-anchor="middle" fill="#95AAA9" font-family="monospace" font-size="11" letter-spacing="1">EVAL</text>
-    <path d="M174 43V139M324 113V182M436 113V182" stroke="#AFC6C8" stroke-opacity=".17" stroke-dasharray="2 6"/>
-    <circle cx="275" cy="43" r="3" fill="#72E1D2"/>
-    <circle cx="275" cy="113" r="3" fill="#F4AF69"/>
+  <g transform="translate(730 83)">
+    <text x="0" y="0" fill="#778C91" font-family="monospace" font-size="10" letter-spacing="2">FROM MODEL BEHAVIOR TO MEASURABLE SYSTEMS</text>
+    <path d="M26 106H126C152 106 152 60 184 60H286C316 60 316 143 348 143H438" fill="none" stroke="#40545B" stroke-width="2"/>
+    <path d="M26 106H126C152 106 152 60 184 60H286C316 60 316 143 348 143H438" fill="none" stroke="url(#trace)" stroke-width="2.5" stroke-dasharray="3 8"/>
+    <circle cx="26" cy="106" r="7" fill="#101820" stroke="#79D8CD" stroke-width="3"/>
+    <circle cx="184" cy="60" r="7" fill="#101820" stroke="#79D8CD" stroke-width="3"/>
+    <circle cx="348" cy="143" r="7" fill="#101820" stroke="#E9B77D" stroke-width="3"/>
+    <circle cx="438" cy="143" r="7" fill="#101820" stroke="#E9B77D" stroke-width="3"/>
+    <text x="26" y="139" text-anchor="middle" fill="#9AACAE" font-family="monospace" font-size="10" letter-spacing="1">TASK</text>
+    <text x="184" y="36" text-anchor="middle" fill="#9AACAE" font-family="monospace" font-size="10" letter-spacing="1">MODEL</text>
+    <text x="348" y="176" text-anchor="middle" fill="#9AACAE" font-family="monospace" font-size="10" letter-spacing="1">TOOLS</text>
+    <text x="438" y="176" text-anchor="middle" fill="#9AACAE" font-family="monospace" font-size="10" letter-spacing="1">EVAL</text>
+    <path d="M184 60V210M348 143V210M438 143V210" stroke="#AFC6C8" stroke-opacity=".15" stroke-dasharray="2 6"/>
+    <circle cx="286" cy="60" r="3" fill="#79D8CD"/>
+    <circle cx="286" cy="143" r="3" fill="#E9B77D"/>
   </g>
-  <text x="1136" y="300" text-anchor="end" fill="#708187" font-family="monospace" font-size="11" letter-spacing="2">BAISHAN / GH</text>
+  <text x="1136" y="322" text-anchor="end" fill="#708187" font-family="monospace" font-size="10" letter-spacing="2">BAISHAN  /  GITHUB</text>
 </svg>
