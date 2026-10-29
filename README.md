@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="白山 | AI Algorithm Engineer and LLM Application Engineer" width="100%" />
+  <img src="https://raw.githubusercontent.com/baishanmumu/baishanmumu/2899092445d2cc830d14ec73be514f4ac1943365/assets/hero.svg" alt="白山 | AI Algorithm Engineer and LLM Application Engineer" width="100%" />
 </p>
 
 <p align="center">
