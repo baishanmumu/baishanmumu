@@ -33,13 +33,12 @@
 | :--- | :--- |
 | **系统集成**<br />API 与数据链路集成、可观测性，以及上线后的稳定运行。<br /><sub>API and data integration, observability, and reliable application behavior.</sub> | **评测与优化**<br />离线/任务级评测，以及效果、延迟、成本和可靠性的权衡。<br /><sub>Offline and task-level evaluation, balancing quality, latency, cost, and reliability.</sub> |
 
-### 🧰 CORE TECH / 核心技术栈
+### 🧰 TECH STACK / 技术栈
 
-<p align="center">
-  <img src="assets/tech-focus.svg" alt="Algorithm modeling, deep learning, LLM applications, RAG, agents and tools, evaluation and observability" width="100%" />
-</p>
+[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) [![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/) [![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/stable/) [![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/) [![Transformers](https://img.shields.io/badge/-Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/docs/transformers/) [![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/) [![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat&logo=openai&logoColor=white)](https://developers.openai.com/api/docs/quickstart) [![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)](https://docs.langchain.com/oss/python/langchain/overview) [![LlamaIndex](https://img.shields.io/badge/-LlamaIndex-7B61FF?style=flat&logo=llamaindex&logoColor=white)](https://docs.llamaindex.ai/en/stable/)<br />
+[![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) [![Pydantic](https://img.shields.io/badge/-Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/latest/) [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![pgvector](https://img.shields.io/badge/-pgvector-336791?style=flat&logo=postgresql&logoColor=white)](https://github.com/pgvector/pgvector) [![Qdrant](https://img.shields.io/badge/-Qdrant-DC244C?style=flat&logo=qdrant&logoColor=white)](https://qdrant.tech/documentation/) [![Milvus](https://img.shields.io/badge/-Milvus-00A1EA?style=flat&logo=milvus&logoColor=white)](https://milvus.io/docs/quickstart.md) [![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://docs.docker.com/) [![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/doc) [![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://www.kernel.org/doc/) [![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)](https://mlflow.org/docs/latest/)
 
-<p align="center"><sub>算法建模 · 深度学习 · 大模型应用 · RAG 检索 · Agent 与工具 · 评测与可观测性</sub></p>
+*Click a badge to open the official website or documentation / 点击徽章直达对应技术的官网或官方文档*
 
 ### ⚙️ PRACTICE / 工作重点
 
