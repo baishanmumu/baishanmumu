@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/monolith/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/monolith/hero-light.svg">
-  <img src="assets/monolith/hero-light.svg" alt="白山 — AI Algorithm Engineer · LLM Application Engineer" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-light.svg" alt="白山 — AI Algorithm Engineer · LLM Application Engineer" width="100%">
 </picture>
 
 **从任务建模，走向可评测、可持续迭代的 AI 应用。**  
@@ -10,9 +10,9 @@
 [Email](mailto:baishanmumu@gmail.com) · [Repositories](https://github.com/baishanmumu?tab=repositories) · [AgentLens 构想](projects/agentlens/README.md)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/monolith/sections/01-profile-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/monolith/sections/01-profile-light.svg">
-  <img src="assets/monolith/sections/01-profile-light.svg" alt="01 / PROFILE · 个人定位" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/01-profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sections/01-profile-light.svg">
+  <img src="assets/sections/01-profile-light.svg" alt="01 / PROFILE · 个人定位" width="100%">
 </picture>
 
 **中文** — 我专注于 AI 算法工程与大模型应用开发：先把任务和指标定义清楚，再选择合适的数据与模型方案，用 RAG / Agent 工作流把能力落到可用系统，并以端到端评测决定下一轮迭代。
@@ -20,9 +20,9 @@
 **English** — I work across AI algorithm engineering and LLM application development: framing the task and its metrics, choosing data and model approaches, shipping RAG and agent workflows, and using end-to-end evaluation to decide what to improve next.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/monolith/sections/02-focus-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/monolith/sections/02-focus-light.svg">
-  <img src="assets/monolith/sections/02-focus-light.svg" alt="02 / FOCUS · 能力版图" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/02-focus-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sections/02-focus-light.svg">
+  <img src="assets/sections/02-focus-light.svg" alt="02 / FOCUS · 能力版图" width="100%">
 </picture>
 
 - **ALGORITHM ENGINEERING / 算法工程** — 任务与指标建模 · 数据与特征处理 · 训练与推理 · 误差分析
@@ -31,9 +31,9 @@
 - **EVALUATION / 评测优化** — 任务完成度 · 检索相关性 · 工具调用正确性 · 质量 / 延迟 / 成本 / 可靠性
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/monolith/sections/03-stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/monolith/sections/03-stack-light.svg">
-  <img src="assets/monolith/sections/03-stack-light.svg" alt="03 / STACK · 技术栈" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/03-stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sections/03-stack-light.svg">
+  <img src="assets/sections/03-stack-light.svg" alt="03 / STACK · 技术栈" width="100%">
 </picture>
 
 [![Python](assets/tech-stack/python.svg)](https://www.python.org/) [![NumPy](assets/tech-stack/numpy.svg)](https://numpy.org/) [![Pandas](assets/tech-stack/pandas.svg)](https://pandas.pydata.org/) [![Scikit-learn](assets/tech-stack/scikit-learn.svg)](https://scikit-learn.org/stable/) [![PyTorch](assets/tech-stack/pytorch.svg)](https://pytorch.org/) [![Transformers](assets/tech-stack/transformers.svg)](https://huggingface.co/docs/transformers/) [![Jupyter](assets/tech-stack/jupyter.svg)](https://jupyter.org/) [![OpenAI](assets/tech-stack/openai.svg)](https://developers.openai.com/api/docs/quickstart) [![LangChain](assets/tech-stack/langchain.svg)](https://docs.langchain.com/oss/python/langchain/overview)  
@@ -43,15 +43,15 @@
 <sub>点击徽章前往对应技术的官网或官方文档 · Click a badge for the official site or docs</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/monolith/sections/04-how-i-build-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/monolith/sections/04-how-i-build-light.svg">
-  <img src="assets/monolith/sections/04-how-i-build-light.svg" alt="04 / HOW I BUILD · 工程闭环" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/04-how-i-build-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sections/04-how-i-build-light.svg">
+  <img src="assets/sections/04-how-i-build-light.svg" alt="04 / HOW I BUILD · 工程闭环" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/monolith/loop-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/monolith/loop-light.svg">
-  <img src="assets/monolith/loop-light.svg" alt="工程闭环：任务、数据、模型、流程、评测，迭代" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/loop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/loop-light.svg">
+  <img src="assets/loop-light.svg" alt="工程闭环：任务、数据、模型、流程、评测，迭代" width="100%">
 </picture>
 
 **中文** — 按数据、模型、检索、工具与编排层定位问题；再用任务完成度、答案依据、延迟、成本与稳定性判断下一步该改什么。
@@ -59,9 +59,9 @@
 **English** — I locate failures across data, models, retrieval, tools and orchestration, then use task success, grounding, latency, cost and reliability to decide the next iteration.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/monolith/sections/05-agentlens-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/monolith/sections/05-agentlens-light.svg">
-  <img src="assets/monolith/sections/05-agentlens-light.svg" alt="05 / AGENTLENS · 项目构想" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/05-agentlens-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sections/05-agentlens-light.svg">
+  <img src="assets/sections/05-agentlens-light.svg" alt="05 / AGENTLENS · 项目构想" width="100%">
 </picture>
 
 **AgentLens** — 为工具型 Agent 设计的可复现评测与调试工作台。
@@ -74,9 +74,9 @@
 [Read the blueprint →](projects/agentlens/README.md)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/monolith/sections/06-references-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/monolith/sections/06-references-light.svg">
-  <img src="assets/monolith/sections/06-references-light.svg" alt="06 / REFERENCES · 技术参考" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/06-references-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sections/06-references-light.svg">
+  <img src="assets/sections/06-references-light.svg" alt="06 / REFERENCES · 技术参考" width="100%">
 </picture>
 
 以下仓库是明确标注上游来源的 fork，仅作技术阅读参考。  
@@ -90,9 +90,9 @@ The repositories below are forks, listed as technical references with upstream m
 | **REA** | Agent-assisted reverse engineering · Agent 辅助逆向分析 | [Upstream](https://github.com/morluto/rea) · [Fork](https://github.com/baishanmumu/rea) |
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/monolith/sections/07-contact-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/monolith/sections/07-contact-light.svg">
-  <img src="assets/monolith/sections/07-contact-light.svg" alt="07 / CONTACT · 联系方式" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/07-contact-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sections/07-contact-light.svg">
+  <img src="assets/sections/07-contact-light.svg" alt="07 / CONTACT · 联系方式" width="100%">
 </picture>
 
 欢迎交流 AI 算法、大模型应用开发与 Agent 系统。  
