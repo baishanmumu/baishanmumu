@@ -33,6 +33,14 @@
 | :--- | :--- |
 | **系统集成**<br />API 与数据链路集成、可观测性，以及上线后的稳定运行。<br /><sub>API and data integration, observability, and reliable application behavior.</sub> | **评测与优化**<br />离线/任务级评测，以及效果、延迟、成本和可靠性的权衡。<br /><sub>Offline and task-level evaluation, balancing quality, latency, cost, and reliability.</sub> |
 
+### 🧰 CORE TECH / 核心技术栈
+
+<p align="center">
+  <img src="assets/tech-focus.svg" alt="Algorithm modeling, deep learning, LLM applications, RAG, agents and tools, evaluation and observability" width="100%" />
+</p>
+
+<p align="center"><sub>算法建模 · 深度学习 · 大模型应用 · RAG 检索 · Agent 与工具 · 评测与可观测性</sub></p>
+
 ### ⚙️ PRACTICE / 工作重点
 
 - **算法闭环 / Algorithm loop** — 从任务与目标指标出发，建立可比较的基线，再通过数据、模型和误差分析定位效果瓶颈。 / Start from the task and target metrics, establish a comparable baseline, then use data, model, and error analysis to locate bottlenecks.
