@@ -7,14 +7,6 @@
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;size=16&amp;duration=3800&amp;pause=1200&amp;color=79D8CD&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=34&amp;lines=Algorithms+%C3%97+LLM+Applications+%C3%97+Evaluation;From+Problem+Framing+to+Reliable+AI+Workflows" />
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;size=16&amp;duration=3800&amp;pause=1200&amp;color=147C76&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=34&amp;lines=Algorithms+%C3%97+LLM+Applications+%C3%97+Evaluation;From+Problem+Framing+to+Reliable+AI+Workflows" />
-    <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;size=16&amp;pause=1200&amp;color=79D8CD&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=34&amp;lines=Algorithms+%C3%97+LLM+Applications+%C3%97+Evaluation" alt="Algorithms, LLM applications, and evaluation" />
-  </picture>
-</p>
-
-<p align="center">
   <strong>从任务建模，走向可评测、可持续迭代的 AI 应用。</strong><br />
   <em>From problem framing to AI applications that are measurable and improvable.</em>
 </p>
