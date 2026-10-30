@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">白山 | AI Systems Observatory</title><desc id="desc">A bilingual AI engineering profile showing a measured system path from task framing and data through models, agents, and evaluation.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F6F9FA"/><stop offset="1" stop-color="#E7EFF2"/></linearGradient>
+ <linearGradient id="signal" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#147C76"/><stop offset=".58" stop-color="#646FA9"/><stop offset="1" stop-color="#9A6938"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#147C76" stop-opacity=".20"/><stop offset="1" stop-color="#147C76" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#516B7C" stroke-opacity=".085" stroke-width="1"/></pattern>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1200" height="360" rx="18" fill="url(#bg)"/><rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+<path d="M54 306H1146M626 42V280" stroke="#526D7E" stroke-opacity=".23"/>
+<text x="64" y="58" fill="#147C76" font-family="monospace" font-size="10" letter-spacing="2.8">BAISHAN  /  AI ENGINEERING DOSSIER</text>
+<text x="60" y="157" fill="#132632" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="72" font-weight="650" letter-spacing="1">白山</text>
+<text x="218" y="152" fill="#445B6B" font-family="monospace" font-size="14" letter-spacing="2.5">BAISHAN</text>
+<text x="64" y="202" fill="#132632" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="18">AI 算法工程师  ·  AI 大模型应用开发工程师</text>
+<text x="64" y="233" fill="#445B6B" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15">AI Algorithm Engineer  ·  LLM Application Engineer</text>
+<text x="64" y="276" fill="#147C76" font-family="monospace" font-size="10" letter-spacing="1.9">MODELS  →  SYSTEMS  →  EVIDENCE</text>
+<text x="64" y="333" fill="#687D8A" font-family="monospace" font-size="9" letter-spacing="2">ALGORITHMIC ENGINEERING  /  LLM APPLICATIONS</text>
+<g transform="translate(675 48)">
+ <text x="0" y="10" fill="#687D8A" font-family="monospace" font-size="9" letter-spacing="2">SYSTEM MAP  /  EVALUATION LOOP</text>
+ <path d="M18 128H95C122 128 124 84 157 84H230C262 84 267 128 296 128H390C418 128 421 176 390 196C357 218 312 196 296 128" fill="none" stroke="#526D7E" stroke-opacity=".38" stroke-width="1.1"/>
+ <path d="M18 128H95C122 128 124 84 157 84H230C262 84 267 128 296 128H390C418 128 421 176 390 196C357 218 312 196 296 128" fill="none" stroke="url(#signal)" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
+ <ellipse cx="230" cy="121" rx="84" ry="80" fill="url(#halo)"/><ellipse cx="230" cy="121" rx="63" ry="41" fill="none" stroke="#646FA9" stroke-opacity=".28"/>
+ <ellipse cx="230" cy="121" rx="42" ry="66" fill="none" stroke="#646FA9" stroke-opacity=".18" transform="rotate(28 230 121)"/>
+ <g fill="url(#halo)" filter="url(#glow)"><circle cx="157" cy="84" r="16"/><circle cx="230" cy="84" r="19"/><circle cx="390" cy="128" r="16"/></g>
+ <g fill="#F5F8FA" stroke="url(#signal)" stroke-width="1.7"><circle cx="18" cy="128" r="5"/><circle cx="95" cy="128" r="3.5"/><circle cx="157" cy="84" r="5"/><circle cx="230" cy="84" r="7"/><circle cx="296" cy="128" r="4.5"/><circle cx="390" cy="128" r="5.5"/></g>
+ <g fill="#445B6B" font-family="monospace" font-size="8" letter-spacing="1.1"><text x="18" y="151" text-anchor="middle">TASK</text><text x="157" y="66" text-anchor="middle">DATA</text><text x="230" y="60" text-anchor="middle" fill="#132632">MODEL</text><text x="296" y="151" text-anchor="middle">AGENT</text><text x="390" y="151" text-anchor="middle">EVAL</text><text x="365" y="220" text-anchor="middle" fill="#9A6938">ITERATE</text></g>
+ <path d="M0 254H462" stroke="#526D7E" stroke-opacity=".23"/>
+ <text x="0" y="276" fill="#687D8A" font-family="monospace" font-size="8" letter-spacing="1.2">QUALITY</text><path d="M58 273H104" stroke="#147C76" stroke-width="2"/>
+ <text x="132" y="276" fill="#687D8A" font-family="monospace" font-size="8" letter-spacing="1.2">LATENCY</text><path d="M202 273H248" stroke="#646FA9" stroke-width="2"/>
+ <text x="276" y="276" fill="#687D8A" font-family="monospace" font-size="8" letter-spacing="1.2">COST</text><path d="M320 273H366" stroke="#9A6938" stroke-width="2"/>
+</g>
+<text x="1140" y="333" text-anchor="end" fill="#687D8A" font-family="monospace" font-size="9" letter-spacing="2">PROFILE / BAISHAN</text></svg>
