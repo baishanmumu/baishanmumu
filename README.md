@@ -62,7 +62,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/loop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/loop-light.svg">
-  <img src="assets/loop-light.svg" alt="工程闭环：任务、数据、模型、流程、评测，迭代" width="100%">
+  <img src="assets/loop-light.svg" alt="排查顺序：任务、数据、模型、流程、评测，迭代" width="100%">
 </picture>
 
 **中文** — 遇到效果问题，我按这个顺序排查：任务定义与评测集、检索与上下文、工具契约与参数、模型与提示、编排方式。越靠前的问题，越不应该用换模型解决。如果检索根本没召回，换模型只是把错误答案换得更流畅。
