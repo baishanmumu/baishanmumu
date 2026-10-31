@@ -96,25 +96,9 @@
 [Read the blueprint →](projects/agentlens/README.md)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/07-references-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/sections/07-references-light.svg">
-  <img src="assets/sections/07-references-light.svg" alt="07 / REFERENCES · 技术参考" width="100%">
-</picture>
-
-以下仓库是明确标注上游来源的 fork，仅作技术阅读参考。  
-The repositories below are forks, listed as technical references with upstream maintainers credited.
-
-| Project | Area | Upstream · Fork |
-| :--- | :--- | :--- |
-| **ARTEX** | Agent-driven security testing · Agent 自主安全测试 | [Upstream](https://github.com/archiveproject/ARTEX) · [Fork](https://github.com/baishanmumu/ARTEX) |
-| **Cairn** | State-space search · 状态空间搜索 | [Upstream](https://github.com/oritera/Cairn) · [Fork](https://github.com/baishanmumu/Cairn) |
-| **Hermes Agent** | General-purpose agent · 通用 Agent 系统 | [Upstream](https://github.com/NousResearch/hermes-agent) · [Fork](https://github.com/baishanmumu/hermes-agent) |
-| **REA** | Agent-assisted reverse engineering · Agent 辅助逆向分析 | [Upstream](https://github.com/morluto/rea) · [Fork](https://github.com/baishanmumu/rea) |
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/08-contact-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/sections/08-contact-light.svg">
-  <img src="assets/sections/08-contact-light.svg" alt="08 / CONTACT · 联系方式" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/07-contact-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sections/07-contact-light.svg">
+  <img src="assets/sections/07-contact-light.svg" alt="07 / CONTACT · 联系方式" width="100%">
 </picture>
 
 欢迎交流 AI 算法、大模型应用开发与多智能体系统。  
