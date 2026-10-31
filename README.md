@@ -4,37 +4,48 @@
   <img src="assets/hero-light.svg" alt="白山 — AI Algorithm Engineer · LLM Application Engineer" width="100%">
 </picture>
 
-**从任务建模，走向可评测、可持续迭代的 AI 应用。**  
-<sub>From problem framing to AI applications that are measurable and improvable.</sub>
+**我把 AI 应用当作可测量的系统：先定义失败，再谈效果。**  
+<sub>I treat AI applications as measurable systems: define failure first, then talk about performance.</sub>
 
 [Email](mailto:baishanmumu@gmail.com) · [Repositories](https://github.com/baishanmumu?tab=repositories) · [AgentLens 构想](projects/agentlens/README.md)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/sections/01-profile-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/sections/01-profile-light.svg">
-  <img src="assets/sections/01-profile-light.svg" alt="01 / PROFILE · 个人定位" width="100%">
+  <img src="assets/sections/01-profile-light.svg" alt="01 / PROFILE · 我在做什么" width="100%">
 </picture>
 
-**中文** — 我专注于 AI 算法工程与大模型应用开发：先把任务和指标定义清楚，再选择合适的数据与模型方案，用 RAG / Agent / 多智能体工作流把能力落到可用系统，并以端到端评测决定下一轮迭代。
+**中文** — 我做 AI 算法与大模型应用。大部分时间，我在处理同一个矛盾：模型是概率性的，工程要求是确定性的。
 
-**English** — I work across AI algorithm engineering and LLM application development: framing the task and its metrics, choosing data and model approaches, shipping RAG, agent and multi-agent workflows, and using end-to-end evaluation to decide what to improve next.
+**问题先于模型。** 很多 LLM 项目卡住，不是因为模型不够强，而是任务没有被定义成可判定的问题：输入边界含糊、成功标准靠感觉、失败无法归因。同一条错误答案，可能来自没召回、召回错、上下文太长、工具参数错，或者模型没按格式输出；不拆开看，就不知道该改哪一层。我的习惯是先把任务拆成明确的输入、输出和成功条件，再决定用一次模型调用、RAG、微调，还是多步 Agent。能一次调用解决的，不加工作流；能一个 Agent 解决的，不加第二个。
+
+**评测不是最后一步。** 我目前最关心 Agent 的评测与调试：不是看最终答案像不像，而是把一次运行拆成计划、工具调用、观察和结论，定位它从哪一步开始偏。AgentLens 是这个方向上的方案尝试。
+
+**English** — I work on AI algorithms and LLM applications. Most of the time I am dealing with the same tension: models are probabilistic, while engineering requirements are deterministic.
+
+**The problem comes before the model.** Most LLM projects get stuck for reasons other than model capability: the task is not defined as something that can be judged. The same wrong answer can come from a missed retrieval, a bad chunk, an overlong context, a malformed tool argument, or a model that ignored the output format. Without separating those, there is no way to know which layer to fix. I start by turning the task into explicit inputs, outputs and success criteria, then choose between a single call, RAG, fine-tuning or a multi-step agent. If one call is enough, I don't add a workflow; if one agent is enough, I don't add a second.
+
+**Evaluation is not the last step.** My current focus is agent evaluation and debugging: not whether the final answer looks right, but whether a run can be broken into plan, tool calls, observations and conclusions, and where it started to drift. AgentLens is my attempt to make that concrete.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/sections/02-focus-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/sections/02-focus-light.svg">
-  <img src="assets/sections/02-focus-light.svg" alt="02 / FOCUS · 能力版图" width="100%">
+  <img src="assets/sections/02-focus-light.svg" alt="02 / FOCUS · 工作切面" width="100%">
 </picture>
 
-- **ALGORITHM ENGINEERING / 算法工程** — 任务与指标建模 · 数据与特征处理 · 训练与推理 · 误差分析
-- **LLM APPLICATIONS / 大模型应用** — Prompt 与结构化输出 · RAG 检索 · Agent 与工具调用 · 多智能体编排 · 多步工作流
-- **SYSTEMS / 系统集成** — API 与数据链路 · 任务编排 · 日志与追踪 · 异常处理
-- **EVALUATION / 评测优化** — 任务完成度 · 检索相关性 · 工具调用正确性 · 质量 / 延迟 / 成本 / 可靠性
+- **任务与指标 / TASK & METRIC** — 先把“错”定义清楚。成功条件不可判定时，换模型只是换一种随机。
+- **检索与上下文 / RETRIEVAL & CONTEXT** — 很多“模型答错”是材料没进来。先看召回、切分和上下文预算，再调提示词。
+- **工具与编排 / TOOLS & ORCHESTRATION** — 工具契约、参数校验和停止条件，比多写两轮提示词更决定 Agent 的稳定性。
+- **评测与归因 / EVAL & ATTRIBUTION** — 把运行变成可回放轨迹，用固定任务集做对照。没有对照的“变好了”不算结论。
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/sections/03-stack-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/sections/03-stack-light.svg">
   <img src="assets/sections/03-stack-light.svg" alt="03 / STACK · 技术栈" width="100%">
 </picture>
+
+工具不是身份。下面这些是我用来把系统做出来、量出来、盯住的。  
+<sub>Tools are not an identity. These are what I use to build, measure and monitor systems.</sub>
 
 [![Python](assets/tech-stack/python.svg)](https://www.python.org/) [![NumPy](assets/tech-stack/numpy.svg)](https://numpy.org/) [![Pandas](assets/tech-stack/pandas.svg)](https://pandas.pydata.org/) [![Scikit-learn](assets/tech-stack/scikit-learn.svg)](https://scikit-learn.org/stable/) [![PyTorch](assets/tech-stack/pytorch.svg)](https://pytorch.org/) [![Transformers](assets/tech-stack/transformers.svg)](https://huggingface.co/docs/transformers/) [![Jupyter](assets/tech-stack/jupyter.svg)](https://jupyter.org/) [![OpenAI](assets/tech-stack/openai.svg)](https://developers.openai.com/api/docs/quickstart) [![LangChain](assets/tech-stack/langchain.svg)](https://docs.langchain.com/oss/python/langchain/overview)  
 [![LangGraph](assets/tech-stack/langgraph.svg)](https://docs.langchain.com/oss/python/langgraph/overview) [![FastAPI](assets/tech-stack/fastapi.svg)](https://fastapi.tiangolo.com/) [![Pydantic](assets/tech-stack/pydantic.svg)](https://docs.pydantic.dev/latest/) [![PostgreSQL](assets/tech-stack/postgresql.svg)](https://www.postgresql.org/) [![pgvector](assets/tech-stack/pgvector.svg)](https://github.com/pgvector/pgvector) [![Qdrant](assets/tech-stack/qdrant.svg)](https://qdrant.tech/documentation/) [![Milvus](assets/tech-stack/milvus.svg)](https://milvus.io/docs/quickstart.md) [![TensorFlow](assets/tech-stack/tensorflow.svg)](https://www.tensorflow.org/guide) [![Keras](assets/tech-stack/keras.svg)](https://keras.io/)  
@@ -45,7 +56,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/sections/04-how-i-build-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/sections/04-how-i-build-light.svg">
-  <img src="assets/sections/04-how-i-build-light.svg" alt="04 / HOW I BUILD · 工程闭环" width="100%">
+  <img src="assets/sections/04-how-i-build-light.svg" alt="04 / HOW I BUILD · 排查顺序" width="100%">
 </picture>
 
 <picture>
@@ -54,9 +65,13 @@
   <img src="assets/loop-light.svg" alt="工程闭环：任务、数据、模型、流程、评测，迭代" width="100%">
 </picture>
 
-**中文** — 按数据、模型、检索、工具与编排层定位问题；再用任务完成度、答案依据、延迟、成本与稳定性判断下一步该改什么。
+**中文** — 遇到效果问题，我按这个顺序排查：任务定义与评测集、检索与上下文、工具契约与参数、模型与提示、编排方式。越靠前的问题，越不应该用换模型解决。如果检索根本没召回，换模型只是把错误答案换得更流畅。
 
-**English** — I locate failures across data, models, retrieval, tools and orchestration, then use task success, grounding, latency, cost and reliability to decide the next iteration.
+每次改动都当成一次实验：固定任务集、固定工具替身，记录延迟与 token 成本，再看任务完成度、答案依据和失败类型有没有变化。没有对照的“感觉变好了”，通常只是换了一种错法。
+
+**English** — When an LLM system underperforms, I debug in this order: task definition and evaluation set, retrieval and context, tool contracts and arguments, model and prompt, then orchestration. The earlier a problem sits in that list, the less sense it makes to solve it by switching models. If retrieval never surfaced the evidence, a better model only produces a smoother wrong answer.
+
+I treat every change as an experiment: fixed task set, fixed tool doubles, latency and token cost recorded, then compare task success, grounding and failure types. A change that feels better without a control is usually just a different failure.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/sections/05-multi-agent-dark.svg">
@@ -64,9 +79,9 @@
   <img src="assets/sections/05-multi-agent-light.svg" alt="05 / MULTI-AGENT · 多智能体" width="100%">
 </picture>
 
-**多智能体不是把多个 Agent 串起来，而是让角色、工具、状态和评测都可被检查。能用一个 Agent 解决的任务，不应该引入多 Agent。**
+**多智能体首先是一个组织设计问题，其次才是提示词问题。**
 
-<sub>Multi-agent systems are not a chain of prompts — they are systems whose roles, handoffs, state and evaluation can all be inspected. If one agent can do the job, multi-agent is usually the wrong tool.</sub>
+<sub>Multi-agent is an organizational design problem before it is a prompting problem.</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/topology-dark.svg">
@@ -74,11 +89,13 @@
   <img src="assets/topology-light.svg" alt="多智能体系统的四个设计面：编排、角色与工具、状态与交接、轨迹与评测" width="100%">
 </picture>
 
-**中文** — 真正的难点通常不在"让 Agent 说话"，而在角色边界、工具契约、状态交接和失败归因：哪些步骤必须由不同角色完成，哪些信息可以共享，出错时能不能定位到具体角色与具体一步。常见形态有 supervisor / handoff / debate / blackboard，选择取决于任务可分解性、工具边界与失败代价。
+**中文** — 我不相信“让几个 Agent 互相讨论就能变聪明”。多智能体只在三种情况下值得：任务可以真正并行、子任务需要不同工具与上下文、或者需要一个独立角色做交叉验证。其余场景往往只是把本可串行完成的步骤拆成并行，再花更多时间合并状态，顺带多付 token 和延迟。
 
-**English** — The hard part is rarely making agents talk; it is role boundaries, tool contracts, state handoff and failure attribution — which steps truly need different roles, what state can be shared, and whether a failure can be traced to a specific agent and step. Common shapes are supervisor, handoff, debate and blackboard; the choice depends on decomposability, tool boundaries and the cost of failure.
+真正难的是交接：谁决定下一步、什么状态允许交接、交接时传什么、失败由谁负责。交接时如果只传结论、不传证据，下一个 Agent 只能重新猜。supervisor、handoff、debate、blackboard 只是四种组织方式，选哪种取决于任务可分解性和失败代价。我的做法是先把角色、工具、状态和评测四个面定清楚，再写编排；一条轨迹如果无法回放，这个多智能体系统就不算可调试。
 
-我的做法是把多智能体运行当成一条可回放的轨迹：固定任务集、工具替身、逐步记录计划 / 动作 / 观察，再用版本对比判断一次改动是否真的让系统变好。这也是 [AgentLens](projects/agentlens/README.md) 想解决的问题。
+**English** — I don't buy the idea that letting several agents debate each other makes them smarter. Multi-agent pays off in three cases: the work is genuinely parallel, subtasks need different tools and context, or an independent role is needed for cross-checking. In most other cases it turns work that could run sequentially into parallel branches, then spends the savings merging state, with extra tokens and latency.
+
+The hard part is handoff: who decides the next step, which states allow a handoff, what gets passed, and who owns a failure. If a handoff passes only a conclusion and not the evidence, the next agent can only guess. Supervisor, handoff, debate and blackboard are just four organizational shapes; the choice depends on decomposability and the cost of failure. I define roles, tools, state and evaluation before writing orchestration. If a run cannot be replayed, the system is not debuggable.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/sections/06-agentlens-dark.svg">
@@ -86,12 +103,14 @@
   <img src="assets/sections/06-agentlens-light.svg" alt="06 / AGENTLENS · 项目构想" width="100%">
 </picture>
 
-**AgentLens** — 为工具型 Agent 设计的可复现评测与调试工作台。
+**AgentLens** — 不是再做一个 Agent 框架，而是想把 Agent 的失败变成可查的调用链。
 
-记录运行轨迹，用固定任务与模拟工具回放，比较 Prompt / 模型变化对任务完成、工具选择、参数正确性、答案依据、延迟与 token 成本的影响。
+现有评测大多只看最终答案，但 Agent 的失败常发生在中间步骤：工具选错、参数错、观察被忽略、循环停不下来。AgentLens 的设想是把运行记录成可回放的轨迹，用固定任务集和工具替身复现，再比较 prompt、模型或编排变化对任务完成、工具选择、参数正确性、依据、延迟和 token 成本的影响。
 
-> **Status — concept stage.** 方案构想阶段，尚未声称已有实现或评测结果。  
-> No implementation or benchmark results are claimed yet.
+**English** — AgentLens is not another agent framework. It is an attempt to make agent failures inspectable as a call chain. Most evaluations only look at the final answer, while agent failures usually happen in the middle: the wrong tool, a bad argument, an ignored observation, a loop that never stops. The idea is to record each run as a replayable trace, reproduce it with fixed tasks and tool doubles, and compare how prompt, model or orchestration changes affect task success, tool choice, argument correctness, grounding, latency and token cost.
+
+> **Status — concept stage.** 方案阶段，没有实现，也没有 benchmark 数字可以宣称。  
+> No implementation, no benchmark numbers.
 
 [Read the blueprint →](projects/agentlens/README.md)
 
@@ -101,8 +120,8 @@
   <img src="assets/sections/07-contact-light.svg" alt="07 / CONTACT · 联系方式" width="100%">
 </picture>
 
-欢迎交流 AI 算法、大模型应用开发与多智能体系统。  
-For conversations about AI algorithms, LLM applications, and multi-agent systems:
+如果你正在做 Agent 评测、RAG 可靠性或多智能体编排，欢迎带着具体问题来聊。比起“合作”，我更想听失败案例。  
+If you work on agent evaluation, RAG reliability or multi-agent orchestration, bring a concrete problem. I would rather hear about a failure than a generic collaboration pitch.
 
 [baishanmumu@gmail.com](mailto:baishanmumu@gmail.com)
 
